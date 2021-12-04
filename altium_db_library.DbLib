@@ -1,0 +1,91 @@
+[OutputDatabaseLinkFile]
+Version=1.1
+[DatabaseLinks]
+ConnectionString=Provider=MSDASQL.1;Persist Security Info=False;User ID=admin;Data Source=altium_db_library;Initial Catalog=altium_db_library
+AddMode=3
+RemoveMode=2
+UpdateMode=2
+ViewMode=0
+LeftQuote=`
+RightQuote=`
+QuoteTableNames=1
+UseTableSchemaName=0
+DefaultColumnType=VARCHAR(255)
+LibraryDatabaseType=
+LibraryDatabasePath=
+DatabasePathRelative=0
+TopPanelCollapsed=0
+LibrarySearchPath=..\altium_library
+OrcadMultiValueDelimiter=,
+SearchSubDirectories=1
+SchemaName=ALTIUM
+LastFocusedTable=opamps
+[Table1]
+SchemaName=
+TableName=capacitors
+Enabled=True
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Name0=328|Description0=603|Manufacturer0=177|Manufacturer Part Number0=304|Supplier 10=142|Supplier Part Number 10=272|Capacitance0=160|Tolerance0=139|Voltage Rating0=186|Library Path0=273|Library Ref0=148|Footprint Path0=290|Footprint Ref0=171
+[Table2]
+SchemaName=
+TableName=opamps
+Enabled=True
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Name0=165|Description0=459|Manufacturer0=319|Manufacturer Part Number0=304|Supplier 10=142|Supplier Part Number 10=272|Nb Of Circuits0=179|Voltage Supply0=239|Slew Rate0=138|Library Path0=273|Library Ref0=234|Footprint Path0=209|Footprint Ref0=171
+[Table3]
+SchemaName=
+TableName=resistors
+Enabled=True
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Name0=102|Description0=153|Manufacturer0=174|Manufacturer Part Number0=304|Supplier 10=142|Supplier Part Number 10=272|Resistance0=144|Tolerance0=139|Power0=105|Temperature Coefficient0=280|Library Path0=158|Library Ref0=148|Footprint Path0=181|Footprint Ref0=171
+[FieldMap1]
+Options=FieldName=capacitors.Name|TableNameOnly=capacitors|FieldNameOnly=Name|FieldType=0|ParameterName=Name|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap2]
+Options=FieldName=capacitors.Description|TableNameOnly=capacitors|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap3]
+Options=FieldName=capacitors.Capacitance|TableNameOnly=capacitors|FieldNameOnly=Capacitance|FieldType=1|ParameterName=Capacitance|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap4]
+Options=FieldName=capacitors.Library Path|TableNameOnly=capacitors|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap5]
+Options=FieldName=capacitors.Library Ref|TableNameOnly=capacitors|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap6]
+Options=FieldName=capacitors.Footprint Path|TableNameOnly=capacitors|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap7]
+Options=FieldName=capacitors.Footprint Ref|TableNameOnly=capacitors|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap8]
+Options=FieldName=opamps.Name|TableNameOnly=opamps|FieldNameOnly=Name|FieldType=0|ParameterName=Name|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap9]
+Options=FieldName=opamps.Description|TableNameOnly=opamps|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap10]
+Options=FieldName=opamps.Manufacturer Part Number|TableNameOnly=opamps|FieldNameOnly=Manufacturer Part Number|FieldType=1|ParameterName=Manufacturer Part Number|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap11]
+Options=FieldName=opamps.Library Path|TableNameOnly=opamps|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap12]
+Options=FieldName=opamps.Library Ref|TableNameOnly=opamps|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap13]
+Options=FieldName=opamps.Footprint Path|TableNameOnly=opamps|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap14]
+Options=FieldName=opamps.Footprint Ref|TableNameOnly=opamps|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap15]
+Options=FieldName=resistors.Name|TableNameOnly=resistors|FieldNameOnly=Name|FieldType=0|ParameterName=Name|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap16]
+Options=FieldName=resistors.Description|TableNameOnly=resistors|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap17]
+Options=FieldName=resistors.Resistance|TableNameOnly=resistors|FieldNameOnly=Resistance|FieldType=1|ParameterName=Resistance|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap18]
+Options=FieldName=resistors.Library Path|TableNameOnly=resistors|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap19]
+Options=FieldName=resistors.Library Ref|TableNameOnly=resistors|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap20]
+Options=FieldName=resistors.Footprint Path|TableNameOnly=resistors|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap21]
+Options=FieldName=resistors.Footprint Ref|TableNameOnly=resistors|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
